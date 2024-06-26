@@ -1,10 +1,3 @@
-# THANKS TO MR WASI>>Itxxwasi 
-
-
-
-
-
-
 
 
 FROM quay.io/Itxxwasi/WASI-MD-V2
