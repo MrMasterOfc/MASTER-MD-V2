@@ -1,6 +1,6 @@
 
 
-FROM quay.io/Itxxwasi/WASI-MD-V2
+FROM quay.io/sampandey001/secktor
 
 RUN git clone https://github.com/MrMasterOfc/MASTER-MD-V2.git/root/MrMasterOfc
 
