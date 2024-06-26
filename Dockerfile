@@ -1,13 +1,22 @@
-FROM quay.io/sampandey001/secktor
+# THANKS TO MR WASI>>Itxxwasi 
 
-RUN git clone https://github.com/Itxxwasi/WASI-MD-V2.git /root/Itxxwasi
+
+
+
+
+
+
+
+FROM quay.io/Itxxwasi/WASI-MD-V2
+
+RUN git clone https://github.com/MrMasterOfc/MASTER-MD-V2.git/root/MrMasterOfc
 
 # Clear npm cache and remove node_modules directories
 RUN npm cache clean --force
-RUN rm -rf /root/Itxxwasi/node_modules
+RUN rm -rf /root/MrMasterOfc/node_modules
 
 # Install dependencies
-WORKDIR /root/Itxxwasi
+WORKDIR /root/MrMasterOfc
 RUN npm install
 
 # Add additional Steps To Run...
