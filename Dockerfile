@@ -1,4 +1,4 @@
-
+ 
 
 FROM quay.io/sampandey001/secktor
 
