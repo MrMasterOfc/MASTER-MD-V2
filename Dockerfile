@@ -1,15 +1,14 @@
- 
-
 FROM quay.io/sampandey001/secktor
 
-RUN git clone https://github.com/MrMasterOfc/MASTER-MD-V2.git/root/MrMasterOfc
+
+RUN git clone https:https://github.com/MrMasterOfc/MASTER-MD-V2.git /root/Itxxwasi
 
 # Clear npm cache and remove node_modules directories
 RUN npm cache clean --force
-RUN rm -rf /root/MrMasterOfc/node_modules
+RUN rm -rf /root/Itxxwasi/node_modules
 
 # Install dependencies
-WORKDIR /root/MrMasterOfc
+WORKDIR /root/Itxxwasi
 RUN npm install
 
 # Add additional Steps To Run...
